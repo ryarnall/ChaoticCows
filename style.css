@@ -20,7 +20,7 @@
 }
 
 .backpack_container {
-  width: 200px;
+  width: 275px;
   display: inline-block;
   float: right;
   /*padding: 5px;
@@ -28,22 +28,19 @@
 }
 
 .drop_down_button { 
-  width: 80%;
+  width: 70%;
   height: 40px;
-  margin-left: auto;
-  border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #a3a3a3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: #004c6d;
   font-weight: bold;
+  outline: none;
+  margin-left: 25%;
 }
 
 #backpack_contents {
-  width: 80%;
-  margin-left: auto;
+  width: 70%;
+  margin-left: 25%;
 }
 
 .backpack_item {
@@ -70,6 +67,14 @@
   font-weight: bold;
   color:  black;
   text-align: center;
+}
+
+.sell_button {
+  position: absolute;
+  top: 15%;
+  width: 40px;
+  left: -45px;
+  outline: none;
 }
 
 #coin_counter {

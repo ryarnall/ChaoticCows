@@ -1,0 +1,85 @@
+/*.text_box {
+	width: 200px;
+	height: 200px;
+	border: 3px solid #004c6d;
+	border-radius: 10px;
+	float: right;
+	background-color: #b2c9d3;
+	text-align: center;
+	line-height: 200px;
+	font-size: 45px;
+}*/
+
+/* the element (a container/box) that contains all elements for the game */
+#game_box {
+	width: 800px;
+	height: 400px;
+	margin: auto;
+	border: 5px solid black;
+
+}
+
+.backpack_container {
+	width: 200px;
+	display: inline-block;
+	float: right;
+	/*padding: 5px;
+	border: 2px solid black;*/
+}
+
+.drop_down_button {	
+	width: 80%;
+	height: 40px;
+	margin-left: auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: #a3a3a3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #004c6d;
+	font-weight: bold;
+}
+
+#backpack_contents {
+	width: 80%;
+	margin-left: auto;
+}
+
+.backpack_item {
+	height: 30px;
+	color: #006d58;
+	border: 1px solid black;
+	line-height: 2;
+	margin-top: 4px;
+	position: relative;
+	text-align: center;
+}
+
+.item_value {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 2.5px;
+	left: 2.5px;
+	line-height: 20px;
+	border: 2px outset #f2dc58;
+	border-radius: 100%;
+	background-color: #ddc328;
+	font-size: 12px;
+	font-weight: bold;
+	color:	black;
+	text-align: center;
+}
+
+#coin_counter {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border: 2px outset #f2dc58;
+	border-radius: 100%;
+	background-color: #ddc328;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
